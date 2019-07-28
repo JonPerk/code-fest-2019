@@ -42,51 +42,51 @@ export const navItems: NavData[] = [
   {
     name: 'Order',
     url: '/order-page',
-    icon: 'icon-puzzle',
+    icon: 'icon-note',
     children: [
       {
         name: 'Order History',
         url: '/order-page/order-history',
-        icon: 'icon-basket-loaded',
+        icon: 'icon-check',
       },
       {
         name: 'Lists',
         url: '/order-page/list',
-        icon: 'icon-puzzle'
+        icon: 'icon-list'
       },
       {
         name: 'Shop',
         url: '/order-page/shop',
-        icon: 'icon-puzzle'
+        icon: 'icon-basket-loaded'
       }
     ]
   },
   {
     name: 'Customer Setting',
-    url: '/order-page',
-    icon: 'icon-puzzle',
+    url: '/customer-setting',
+    icon: 'icon-people',
     children: [
       {
         name: 'User Profile',
-        url: '/order-page/order-history',
-        icon: 'icon-basket-loaded',
+        url: '/customer-setting/user-profile',
+        icon: 'icon-user',
       },
       {
         name: 'Auto Order Setting',
-        url: '/order-page/list',
-        icon: 'icon-puzzle'
+        url: '/customer-setting/auto-order',
+        icon: 'icon-settings'
       },
-      {
-        name: 'Track Order',
-        url: '/order-page/shop',
-        icon: 'icon-puzzle'
-      }
+      // {
+      //   name: 'Track Order',
+      //   url: '/customer-setting/user-profile',
+      //   icon: 'icon-location-pin'
+      // }
     ]
   },
   {
     name: 'Reports',
     url: '/order-page',
-    icon: 'icon-puzzle'
+    icon: 'icon-graph'
   },
   {
     name: 'Download Order History',
