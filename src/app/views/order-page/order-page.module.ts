@@ -7,6 +7,7 @@ import { OrderPageComponent } from './order-page.component';
 import { OrderHistoryComponent } from './order-history/order-history.component';
 import { ShopComponent } from './shop/shop.component';
 import { ListComponent } from './list/list.component';
+import { ShopCategoryComponent } from './shop-category/shop-category.component';
 
 @NgModule({
   imports: [
@@ -14,6 +15,6 @@ import { ListComponent } from './list/list.component';
     ChartsModule,
     BsDropdownModule
   ],
-  declarations: [ OrderPageComponent, OrderHistoryComponent, ShopComponent, ListComponent ]
+  declarations: [ OrderPageComponent, OrderHistoryComponent, ShopComponent, ListComponent, ShopCategoryComponent ]
 })
 export class OrderPageModule { }

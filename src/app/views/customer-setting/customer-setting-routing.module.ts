@@ -1,7 +1,9 @@
+import { DamageReportComponent } from './damage-report/damage-report.component';
 import { AutoOrderComponent } from './auto-order/auto-order.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ProductDataComponent } from './product-data/product-data.component';
 
 const routes: Routes = [
   {
@@ -29,10 +31,17 @@ const routes: Routes = [
         }
       },
       {
-        path: 'user-profile',
-        component: UserProfileComponent,
+        path: 'product-data',
+        component: ProductDataComponent,
         data: {
-          title: 'Track Order'
+          title: 'Product Data'
+        }
+      },
+      {
+        path: 'damage-report',
+        component: DamageReportComponent,
+        data: {
+          title: 'Damage Report'
         }
       }
     ]

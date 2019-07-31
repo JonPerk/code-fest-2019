@@ -76,11 +76,16 @@ export const navItems: NavData[] = [
         url: '/customer-setting/auto-order',
         icon: 'icon-settings'
       },
-      // {
-      //   name: 'Track Order',
-      //   url: '/customer-setting/user-profile',
-      //   icon: 'icon-location-pin'
-      // }
+      {
+        name: 'Product Data',
+        url: '/customer-setting/product-data',
+        icon: 'icon-list'
+      },
+      {
+        name: 'Damage Report',
+        url: '/customer-setting/damage-report',
+        icon: 'icon-list'
+      }
     ]
   },
   {
