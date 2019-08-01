@@ -31,23 +31,14 @@ export interface NavData {
 
 export const navItems: NavData[] = [
   {
-    name: 'Dashboard',
-    url: '/dashboard',
-    icon: 'icon-speedometer',
-    badge: {
-      variant: 'info',
-      text: 'NEW'
-    }
-  },
-  {
     name: 'Order',
     url: '/order-page',
     icon: 'icon-note',
     children: [
       {
-        name: 'Order History',
-        url: '/order-page/order-history',
-        icon: 'icon-check',
+        name: 'Shop',
+        url: '/order-page/shop',
+        icon: 'icon-basket-loaded'
       },
       {
         name: 'Lists',
@@ -55,9 +46,9 @@ export const navItems: NavData[] = [
         icon: 'icon-list'
       },
       {
-        name: 'Shop',
-        url: '/order-page/shop',
-        icon: 'icon-basket-loaded'
+        name: 'Order History',
+        url: '/order-page/order-history',
+        icon: 'icon-check',
       }
     ]
   },
@@ -92,6 +83,15 @@ export const navItems: NavData[] = [
     name: 'Reports',
     url: '/order-page',
     icon: 'icon-graph'
+  },
+  {
+    name: 'Dashboard',
+    url: '/dashboard',
+    icon: 'icon-speedometer',
+    badge: {
+      variant: 'info',
+      text: 'NEW'
+    }
   },
   {
     name: 'Download Order History',
