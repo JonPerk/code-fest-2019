@@ -89,6 +89,10 @@ export const routes: Routes = [
       {
         path: 'customer-setting',
         loadChildren: () => import('./views/customer-setting/customer-setting.module').then(m => m.CustomerSettingModule)
+      },
+      {
+        path: 'chat',
+        loadChildren: () => import('./views/chat/chat.module').then(m => m.ChatModule)
       }
     ]
   },

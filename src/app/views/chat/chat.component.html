@@ -1,0 +1,26 @@
+<div class="animated fadeIn">
+    <div class="card">
+      <div class="card-header">
+        Ask your questions!
+      </div>
+      <div class="card-body"
+           (collapsed)="collapsed($event)"
+           (expanded)="expanded($event)"
+           [collapse]="isCollapsed">
+        <p>
+          <iframe 
+            src="https://assistant-chat-us-south.watsonplatform.net/web/public/2cf5b7b0-9bff-4b98-9c1d-ce9ed606fc74" 
+            frameborder="0"
+            width="400" 
+            height="800">
+          </iframe>
+        </p>
+      </div>
+      <div class="card-footer">
+        <button type="button" class="btn btn-primary"
+                (click)="isCollapsed = !isCollapsed">Toggle collapse
+        </button>
+      </div>
+    </div>
+  </div>
+  
