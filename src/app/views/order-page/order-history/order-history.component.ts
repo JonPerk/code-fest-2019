@@ -22,8 +22,8 @@ export class OrderHistoryComponent implements OnInit {
   ngOnInit() {
   }
 
-  gotoOrderDetail() {
-    this.router.navigate(['/order-page/order-detail']);
+  gotoOrderDetail(id: number) {
+    this.router.navigate(['/order-page/order-detail/' + id]);
   }
   public getJSON(): Observable<any> {
     return this.http.get(this._jsonURL);

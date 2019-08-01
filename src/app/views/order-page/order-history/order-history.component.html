@@ -19,144 +19,14 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Direct Ship</td>
-                <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>205309</div>
-                </td>
-                <td>1 CS</td>
-                <td>4 EA</td>
-                <td>7/24/2019</td>
-                <td>7/29/2019</td>
-                <td>
-                  <span class="badge badge-success">Delivered</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Direct Ship</td>
-                <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>201225</div>
-                </td>
-                <td>1 CS</td>
-                <td>0 EA</td>
-                <td>7/26/2019</td>
-                <td>7/29/2019</td>
-                <td>
-                  <span class="badge badge-success">Submitted</span>
-                </td>
-              </tr>
-              <tr>
-                  <td>Direct Ship</td>
-                  <td class="orderNumber">
-                    <div (click)='gotoOrderDetail()'>205309</div>
-                  </td>
-                  <td>1 CS</td>
-                  <td>4 EA</td>
-                  <td>7/25/2019</td>
-                  <td>7/29/2019</td>
-                  <td>
-                    <span class="badge badge-success">Submitted</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Scheduled Order</td>
-                  <td class="orderNumber">
-                    <div (click)='gotoOrderDetail()'>218966</div>
-                  </td>
-                  <td>44 CS</td>
-                  <td>0 EA</td>
-                  <td>7/23/2019</td>
-                  <td>7/26/2019</td>
-                  <td>
-                    <span class="badge badge-success">Delivered</span>
-                  </td>
-                </tr>
-                <tr>
-                    <td>Direct Ship</td>
-                    <td class="orderNumber">
-                      <div (click)='gotoOrderDetail()'>612853</div>
-                    </td>
-                    <td>2 CS</td>
-                    <td>4 EA</td>
-                    <td>7/22/2019</td>
-                    <td>7/25/2019</td>
-                    <td>
-                      <span class="badge badge-success">Delivered</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Direct Ship</td>
-                    <td class="orderNumber">
-                      <div (click)='gotoOrderDetail()'>621852</div>
-                    </td>
-                    <td>1 CS</td>
-                    <td>4 EA</td>
-                    <td>7/24/2019</td>
-                    <td>7/29/2019</td>
-                    <td>
-                      <span class="badge badge-success">Delivered</span>
-                    </td>
-                  </tr>
-                  <tr>
-                      <td>Scheduled Order</td>
-                      <td class="orderNumber">
-                        <div (click)='gotoOrderDetail()'>985345</div>
-                      </td>
-                      <td>1 CS</td>
-                      <td>4 EA</td>
-                      <td>7/20/2019</td>
-                      <td>7/23/2019</td>
-                      <td>
-                        <span class="badge badge-success">Delivered</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Direct Ship</td>
-                      <td class="orderNumber">
-                        <div (click)='gotoOrderDetail()'>611093</div>
-                      </td>
-                      <td>1 CS</td>
-                      <td>4 EA</td>
-                      <td>7/20/2019</td>
-                      <td>7/23/2019</td>
-                      <td>
-                        <span class="badge badge-success">Delivered</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Scheduled Order</td>
-                      <td class="orderNumber">
-                        <div (click)='gotoOrderDetail()'>991684</div>
-                      </td>
-                      <td>1 CS</td>
-                      <td>4 EA</td>
-                      <td>7/18/2019</td>
-                      <td>7/22/2019</td>
-                      <td>
-                        <span class="badge badge-success">Delivered</span>
-                      </td>
-                    </tr>
-                    <tr>
-                        <td>Direct Ship</td>
-                        <td class="orderNumber">
-                          <div (click)='gotoOrderDetail()'>604957</div>
-                        </td>
-                        <td>1 CS</td>
-                        <td>4 EA</td>
-                        <td>7/15/2019</td>
-                        <td>7/18/2019</td>
-                        <td>
-                          <span class="badge badge-success">Delivered</span>
-                        </td>
-                      </tr>
                         <tr class="data-cells" *ngFor="let order of orders">
                             <td>
                                 {{order.type}}
                             </td>
-                          <td>
-                            <a href="#">
+                            <td class="orderNumber">
+                              <div (click)='gotoOrderDetail(order.orderNumber)'>
                               {{order.orderNumber}}
-                            </a>
+                              </div>
                           </td>
                           <td>
                               {{order.totalCase}}
@@ -171,7 +41,7 @@
                               {{order.estimatedDelivery}}
                           </td>
                           <td>
-                              {{order.status}}
+                              <span class="badge badge-success"> {{order.status}}</span>
                           </td>
                         </tr>
             </tbody>

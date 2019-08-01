@@ -1,23 +1,4 @@
-[      
-  
-  {
-  "productNumber": 7634157,
-  "description": "PLATE, DINNER WHITE 11X12",
-  "brand": "Valu Plus",
-  "price": "$30.70 /CS",
-  "ordered": "1 CS",
-  "reserved": "1 CS",
-  "total": "$39.85 "
-},
-{
-  "productNumber": 194258,
-  "description": "DINNER MEAT, HAM SLICED .47 OZ COOKED OVEN ROASTED REF",
-  "brand": "Perdue ",
-  "price": "$48.91 / CS",
-  "ordered": "1 CS",
-  "reserved": "1 CS",
-  "total": "$58.91 "
-},
+[
         {
           "productNumber": 4716874,
           "description": "CONTAINER, PAPER BOARD #3 CATERING BOX SINGLE POLY COATED KRAFT BROWN 7.75X5.5X2.5 RECYCLED CARDBOARD CARRY-OUT",
