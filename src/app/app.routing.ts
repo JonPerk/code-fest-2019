@@ -85,6 +85,10 @@ export const routes: Routes = [
       {
         path: 'order-page',
         loadChildren: () => import('./views/order-page/order-page.module').then(m => m.OrderPageModule)
+      },
+      {
+        path: 'customer-setting',
+        loadChildren: () => import('./views/customer-setting/customer-setting.module').then(m => m.CustomerSettingModule)
       }
     ]
   },
