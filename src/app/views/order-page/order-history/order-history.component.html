@@ -11,7 +11,8 @@
               <tr>
                 <th>Order Type</th>
                 <th>Order # / PO #</th>
-                <th>Total</th>
+                <th>Total CS</th>
+                <th>Total EA</th>
                 <th>Submitted</th>
                 <th>Estimated Delivery</th>
                 <th>Status</th>
@@ -19,104 +20,135 @@
             </thead>
             <tbody>
               <tr>
+                <td>Direct Ship</td>
                 <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>12345678</div>
+                  <div (click)='gotoOrderDetail()'>205309</div>
                 </td>
-                <td>01/01/2019</td>
-                <td>01/04/2019</td>
-                <td>Auto</td>
+                <td>1 CS</td>
+                <td>4 EA</td>
+                <td>7/24/2019</td>
+                <td>7/29/2019</td>
                 <td>
                   <span class="badge badge-success">Delivered</span>
                 </td>
               </tr>
               <tr>
+                <td>Direct Ship</td>
                 <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>12345678</div>
+                  <div (click)='gotoOrderDetail()'>201225</div>
                 </td>
-                <td>01/01/2019</td>
-                <td>01/04/2019</td>
-                <td>Auto</td>
+                <td>1 CS</td>
+                <td>0 EA</td>
+                <td>7/26/2019</td>
+                <td>7/29/2019</td>
                 <td>
-                  <span class="badge badge-success">Delivered</span>
+                  <span class="badge badge-success">Submitted</span>
                 </td>
               </tr>
               <tr>
-                <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>12345678</div>
-                </td>
-                <td>01/01/2019</td>
-                <td>01/04/2019</td>
-                <td>Auto</td>
-                <td>
-                  <span class="badge badge-success">Delivered</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>12345678</div>
-                </td>
-                <td>01/01/2019</td>
-                <td>01/04/2019</td>
-                <td>Manual</td>
-                <td>
-                  <span class="badge badge-success">Delivered</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>12345678</div>
-                </td>
-                <td>01/01/2019</td>
-                <td>01/04/2019</td>
-                <td>Auto</td>
-                <td>
-                  <span class="badge badge-success">Delivered</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>12345678</div>
-                </td>
-                <td>01/01/2019</td>
-                <td>01/04/2019</td>
-                <td>Auto</td>
-                <td>
-                  <span class="badge badge-success">Delivered</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>12345678</div>
-                </td>
-                <td>01/01/2019</td>
-                <td>01/04/2019</td>
-                <td>Auto</td>
-                <td>
-                  <span class="badge badge-success">Delivered</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>12345678</div>
-                </td>
-                <td>01/01/2019</td>
-                <td>01/04/2019</td>
-                <td>Auto-Manual</td>
-                <td>
-                  <span class="badge badge-warning">In-Transit</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="orderNumber">
-                  <div (click)='gotoOrderDetail()'>12345678</div>
-                </td>
-                <td>01/01/2019</td>
-                <td>01/04/2019</td>
-                <td>Auto</td>
-                <td>
-                  <span class="badge badge-secondary">Waiting for Approval</span>
-                </td>
-              </tr>
+                  <td>Direct Ship</td>
+                  <td class="orderNumber">
+                    <div (click)='gotoOrderDetail()'>205309</div>
+                  </td>
+                  <td>1 CS</td>
+                  <td>4 EA</td>
+                  <td>7/25/2019</td>
+                  <td>7/29/2019</td>
+                  <td>
+                    <span class="badge badge-success">Submitted</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Scheduled Order</td>
+                  <td class="orderNumber">
+                    <div (click)='gotoOrderDetail()'>218966</div>
+                  </td>
+                  <td>44 CS</td>
+                  <td>0 EA</td>
+                  <td>7/23/2019</td>
+                  <td>7/26/2019</td>
+                  <td>
+                    <span class="badge badge-success">Delivered</span>
+                  </td>
+                </tr>
+                <tr>
+                    <td>Direct Ship</td>
+                    <td class="orderNumber">
+                      <div (click)='gotoOrderDetail()'>612853</div>
+                    </td>
+                    <td>2 CS</td>
+                    <td>4 EA</td>
+                    <td>7/22/2019</td>
+                    <td>7/25/2019</td>
+                    <td>
+                      <span class="badge badge-success">Delivered</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Direct Ship</td>
+                    <td class="orderNumber">
+                      <div (click)='gotoOrderDetail()'>621852</div>
+                    </td>
+                    <td>1 CS</td>
+                    <td>4 EA</td>
+                    <td>7/24/2019</td>
+                    <td>7/29/2019</td>
+                    <td>
+                      <span class="badge badge-success">Delivered</span>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td>Scheduled Order</td>
+                      <td class="orderNumber">
+                        <div (click)='gotoOrderDetail()'>985345</div>
+                      </td>
+                      <td>1 CS</td>
+                      <td>4 EA</td>
+                      <td>7/20/2019</td>
+                      <td>7/23/2019</td>
+                      <td>
+                        <span class="badge badge-success">Delivered</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Direct Ship</td>
+                      <td class="orderNumber">
+                        <div (click)='gotoOrderDetail()'>611093</div>
+                      </td>
+                      <td>1 CS</td>
+                      <td>4 EA</td>
+                      <td>7/20/2019</td>
+                      <td>7/23/2019</td>
+                      <td>
+                        <span class="badge badge-success">Delivered</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Scheduled Order</td>
+                      <td class="orderNumber">
+                        <div (click)='gotoOrderDetail()'>991684</div>
+                      </td>
+                      <td>1 CS</td>
+                      <td>4 EA</td>
+                      <td>7/18/2019</td>
+                      <td>7/22/2019</td>
+                      <td>
+                        <span class="badge badge-success">Delivered</span>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>Direct Ship</td>
+                        <td class="orderNumber">
+                          <div (click)='gotoOrderDetail()'>604957</div>
+                        </td>
+                        <td>1 CS</td>
+                        <td>4 EA</td>
+                        <td>7/15/2019</td>
+                        <td>7/18/2019</td>
+                        <td>
+                          <span class="badge badge-success">Delivered</span>
+                        </td>
+                      </tr>
             </tbody>
           </table>
         </div>
