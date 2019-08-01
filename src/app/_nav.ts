@@ -72,17 +72,12 @@ export const navItems: NavData[] = [
         url: '/customer-setting/product-data',
         icon: 'icon-list'
       },
-      {
-        name: 'Damage Report',
-        url: '/customer-setting/damage-report',
-        icon: 'icon-list'
-      }
+      // {
+      //   name: 'Damage Report',
+      //   url: '/customer-setting/damage-report',
+      //   icon: 'icon-list'
+      // }
     ]
-  },
-  {
-    name: 'Reports',
-    url: '/order-page',
-    icon: 'icon-graph'
   },
   {
     name: 'Dashboard',

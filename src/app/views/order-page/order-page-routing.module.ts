@@ -50,7 +50,7 @@ const routes: Routes = [
         path: 'order-page/order-detail',
         component: OrderDetailComponent,
         data: {
-          title: 'Shop Category'
+          title: 'Order Detail'
         }
       }
     ]
