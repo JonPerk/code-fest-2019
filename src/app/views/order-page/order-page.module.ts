@@ -9,12 +9,14 @@ import { ShopComponent } from './shop/shop.component';
 import { ListComponent } from './list/list.component';
 import { ShopCategoryComponent } from './shop-category/shop-category.component';
 import { OrderDetailComponent } from './order-detail/order-detail.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
     OrderPageRoutingModule,
     ChartsModule,
-    BsDropdownModule
+    BsDropdownModule,
+    HttpClientModule
   ],
   declarations: [ OrderPageComponent, OrderHistoryComponent, ShopComponent, ListComponent, ShopCategoryComponent, OrderDetailComponent ]
 })
