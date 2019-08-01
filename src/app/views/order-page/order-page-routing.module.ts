@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { OrderPageComponent } from './order-page.component';
 import { OrderHistoryComponent } from './order-history/order-history.component';
 import { ShopComponent } from './shop/shop.component';
+import { OrderDetailComponent } from './order-detail/order-detail.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,13 @@ const routes: Routes = [
       {
         path: 'order-page/shopCategory',
         component: ShopCategoryComponent,
+        data: {
+          title: 'Shop Category'
+        }
+      },
+      {
+        path: 'order-page/order-detail',
+        component: OrderDetailComponent,
         data: {
           title: 'Shop Category'
         }
