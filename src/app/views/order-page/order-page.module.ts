@@ -8,6 +8,7 @@ import { OrderHistoryComponent } from './order-history/order-history.component';
 import { ShopComponent } from './shop/shop.component';
 import { ListComponent } from './list/list.component';
 import { ShopCategoryComponent } from './shop-category/shop-category.component';
+import { OrderDetailComponent } from './order-detail/order-detail.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { ShopCategoryComponent } from './shop-category/shop-category.component';
     ChartsModule,
     BsDropdownModule
   ],
-  declarations: [ OrderPageComponent, OrderHistoryComponent, ShopComponent, ListComponent, ShopCategoryComponent ]
+  declarations: [ OrderPageComponent, OrderHistoryComponent, ShopComponent, ListComponent, ShopCategoryComponent, OrderDetailComponent ]
 })
 export class OrderPageModule { }
