@@ -1,83 +1,83 @@
 [
  {
+   "type": "Direct Ship",
    "orderNumber": 205309,
-   "poNumber": "3461",
    "totalCase": "1 CS",
    "totalEach": "0 EA",
    "submitted": "7/24/19",
    "estimatedDelivery": "7/29/19",
-   "status": "Submitted"
+   "status": "Delivered"
  },
  {
+   "type": "Scheduled Order",
    "orderNumber": 201225,
-   "poNumber": "3421",
    "totalCase": "1CS",
    "totalEach": "0 EA",
    "submitted": "7/23/19",
    "estimatedDelivery": "7/26/19",
-   "status": "Submitted"
+   "status": "Delivered"
  },
  {
+  "type": "Auto order",
    "orderNumber": 218966,
-   "poNumber": "3575",
    "totalCase": "44 CS",
    "totalEach": "0 EA",
    "submitted": "7/31/19",
    "estimatedDelivery": "8/1/19",
+   "status": "Delivered"
+ },
+ {
+  "type": "Bot Order",
+   "orderNumber": 612853,
+   "totalCase": "2 CS",
+   "totalEach": "0 EA",
+   "submitted": "8/7/19",
+   "estimatedDelivery": "8/12/19 ",
+   "status": "Submitted"
+ },
+ {
+  "type": "User Order",
+   "orderNumber": 621852,
+   "totalCase": "286 CS",
+   "totalEach": "13 EA",
+   "submitted": "8/2/19",
+   "estimatedDelivery": "8/3/19",
    "status": "Shipped"
  },
  {
-   "orderNumber": 612853,
-   "poNumber": "2 CS",
-   "totalCase": "0 EA",
-   "totalEach": "7/31/19",
-   "submitted": "8/7/19",
-   "estimatedDelivery": "Submitted ",
-   "status": ""
- },
- {
-   "orderNumber": 621852,
-   "poNumber": "286 CS",
-   "totalCase": "13 EA",
-   "totalEach": "8/31/19",
-   "submitted": "8/2/19",
-   "estimatedDelivery": "Submitted",
-   "status": ""
- },
- {
+  "type": "Bot Order",
    "orderNumber": 611093,
-   "poNumber": "3 CS",
-   "totalCase": "0 EA",
-   "totalEach": "7/24/19",
+   "totalCase": "3 CS",
+   "totalEach": "0 EA",
    "submitted": "7/29/19",
-   "estimatedDelivery": "Shipped",
-   "status": ""
+   "estimatedDelivery": "8/2/19",
+   "status": "In Transit"
  },
  {
+  "type": "Bot Order",
    "orderNumber": 985345,
-   "poNumber": "1 CS",
-   "totalCase": "0 EA",
-   "totalEach": "7/29/19",
+   "totalCase": "1 CS",
+   "totalEach": "0 EA",
    "submitted": "8/2/19",
-   "estimatedDelivery": "Submitted ",
-   "status": ""
+   "estimatedDelivery": "8/4/19 ",
+   "status": "Shipped"
  },
  {
+  "type": "Scheduled Order",
    "orderNumber": 991684,
-   "poNumber": "4 CS",
-   "totalCase": "0 EA",
-   "totalEach": "7/31/19",
+   "totalCase": "4 CS",
+   "totalEach": "0 EA",
    "submitted": "8/1/19",
-   "estimatedDelivery": "Shipped ",
-   "status": ""
+   "estimatedDelivery": "8/5/19 ",
+   "status": "Submitted"
  },
  {
+  "type": "Auto Order",
    "orderNumber": 604957,
-   "poNumber": "1 CS",
-   "totalCase": "0 EA",
-   "totalEach": "7/19/19",
+   "totalCase": "1 CS",
+   "totalEach": "0 EA",
    "submitted": "7/20/19",
-   "estimatedDelivery": "Picking ",
-   "status": ""
+   "estimatedDelivery": "8/12/19 ",
+   "status": "Submitted"
  }
 ]

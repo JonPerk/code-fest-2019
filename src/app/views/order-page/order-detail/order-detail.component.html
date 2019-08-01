@@ -17,36 +17,33 @@
               </tr>
             </thead>
             <tbody>
-                <tr>
-                  <td>4716874</td>
-                  <td>CONTAINER, PAPER BOARD #3 CATERING BOX SINGLE POLY COATED KRAFT BROWN 7.75X5.5X2.5 RECYCLED CARDBOARD CARRY-OUT</td>
-                  <td>Bio Plus Earth</td>
-                  <td class="text-center">$45.98 / CS</td>
-                  <td class="text-center">1 CS</td>
-                  <td class="text-center">1 CS</td>
-                  <td class="text-center">$49.98</td>
+                <tr class="data-cells" *ngFor="let product of products">
+                  <td>
+                    <a href="#">
+                      {{product.productNumber}}
+                    </a>
+                  </td>
+                  <td>
+                      {{product.description}}
+                  </td>
+                  <td>
+                      {{product.brand}}
+                  </td>
+                  <td>
+                      {{product.price}}
+                  </td>
+                  <td>
+                      {{product.ordered}}
+                  </td>
+                  <td>
+                      {{product.reserved}}
+                  </td>
+                  <td>
+                      {{product.total}}
+                  </td>
                 </tr>
-                <tr>
-                  <td>3992161</td>
-                  <td>GLOVE, SYNTHETIC LARGE POWDER-FREE WHITE WRIST LENGTH ROLLED CUFF AMBIDEXTR</td>
-                  <td>Monogram</td>
-                  <td class="text-center">$25.25 /CS</td>
-                  <td class="text-center">1 CS</td>
-                  <td class="text-center">1 CS</td>
-                  <td class="text-center">$27.02</td>
-                </tr>
-                <tr>
-                  <td>3992161</td>
-                  <td>GLOVE, SYNTHETIC LARGE POWDER-FREE WHITE WRIST LENGTH ROLLED CUFF AMBIDEXTR</td>
-                  <td>Monogram</td>
-                  <td class="text-center">$25.25 /CS</td>
-                  <td class="text-center">1 CS</td>
-                  <td class="text-center">1 CS</td>
-                  <td class="text-center">$27.02</td>
-                </tr>
-                
             </tbody>
-          </table>
+          </table>           
       </div>
     </div><!--/.col-->
   </div><!--/.row-->
