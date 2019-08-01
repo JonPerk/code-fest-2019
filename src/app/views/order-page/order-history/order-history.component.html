@@ -149,6 +149,31 @@
                           <span class="badge badge-success">Delivered</span>
                         </td>
                       </tr>
+                        <tr class="data-cells" *ngFor="let order of orders">
+                            <td>
+                                {{order.type}}
+                            </td>
+                          <td>
+                            <a href="#">
+                              {{order.orderNumber}}
+                            </a>
+                          </td>
+                          <td>
+                              {{order.totalCase}}
+                          </td>
+                          <td>
+                              {{order.totalEach}}
+                          </td>
+                          <td>
+                              {{order.submitted}}
+                          </td>
+                          <td>
+                              {{order.estimatedDelivery}}
+                          </td>
+                          <td>
+                              {{order.status}}
+                          </td>
+                        </tr>
             </tbody>
           </table>
         </div>

@@ -10,14 +10,18 @@ import { ListComponent } from './list/list.component';
 import { ShopCategoryComponent } from './shop-category/shop-category.component';
 import { OrderDetailComponent } from './order-detail/order-detail.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [
     OrderPageRoutingModule,
     ChartsModule,
     BsDropdownModule,
-    HttpClientModule
+    HttpClientModule,
+    CommonModule
   ],
-  declarations: [ OrderPageComponent, OrderHistoryComponent, ShopComponent, ListComponent, ShopCategoryComponent, OrderDetailComponent ]
+  declarations: [ OrderPageComponent, OrderHistoryComponent, ShopComponent, ListComponent,
+    ShopCategoryComponent, OrderDetailComponent]
 })
 export class OrderPageModule { }

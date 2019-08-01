@@ -10,12 +10,12 @@ import { Observable } from 'rxjs';
 })
 export class OrderDetailComponent implements OnInit {
   dataUrl = '/data/data.json';
-  orderData = {};
-  private _jsonURL = 'http://localhost:4200/assets/data/order.json';
+  products = {};
+  private _jsonURL = 'http://localhost:4200/assets/data/product.json';
 
   constructor(private http: HttpClient) {
     this.getJSON().subscribe(data => {
-      this.orderData = data;
+      this.products = data;
       console.log(data);
     });
   }
