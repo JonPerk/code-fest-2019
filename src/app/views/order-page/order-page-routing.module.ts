@@ -47,7 +47,7 @@ const routes: Routes = [
         }
       },
       {
-        path: 'order-page/order-detail',
+        path: 'order-page/order-detail/:id',
         component: OrderDetailComponent,
         data: {
           title: 'Order Detail'
