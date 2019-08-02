@@ -2,20 +2,20 @@
  {
    "type": "Direct Ship",
    "orderNumber": 205309,
-   "totalCase": "1 CS",
+   "totalCase": "9 CS",
    "totalEach": "0 EA",
-   "submitted": "7/24/19",
-   "estimatedDelivery": "7/29/19",
-   "status": "Delivered"
+   "submitted": "8/01/19",
+   "estimatedDelivery": "8/09/19",
+   "status": "submitted"
  },
  {
    "type": "Scheduled Order",
    "orderNumber": 201225,
-   "totalCase": "1CS",
+   "totalCase": "2CS",
    "totalEach": "0 EA",
-   "submitted": "7/23/19",
-   "estimatedDelivery": "7/26/19",
-   "status": "Delivered"
+   "submitted": "7/31/19",
+   "estimatedDelivery": "8/02/19",
+   "status": "In Transit"
  },
  {
   "type": "Auto order",
@@ -31,53 +31,53 @@
    "orderNumber": 612853,
    "totalCase": "2 CS",
    "totalEach": "0 EA",
-   "submitted": "8/7/19",
-   "estimatedDelivery": "8/12/19 ",
-   "status": "Submitted"
+   "submitted": "7/27/19",
+   "estimatedDelivery": "7/30/19 ",
+   "status": "Delivered"
  },
  {
   "type": "User Order",
    "orderNumber": 621852,
    "totalCase": "286 CS",
    "totalEach": "13 EA",
-   "submitted": "8/2/19",
-   "estimatedDelivery": "8/3/19",
-   "status": "Shipped"
+   "submitted": "7/23/19",
+   "estimatedDelivery": "7/30/19",
+   "status": "Delivered"
  },
  {
   "type": "Bot Order",
    "orderNumber": 611093,
    "totalCase": "3 CS",
    "totalEach": "0 EA",
-   "submitted": "7/29/19",
-   "estimatedDelivery": "8/2/19",
-   "status": "In Transit"
+   "submitted": "7/22/19",
+   "estimatedDelivery": "7/24/19",
+   "status": "Delivered"
  },
  {
   "type": "Bot Order",
    "orderNumber": 985345,
    "totalCase": "1 CS",
    "totalEach": "0 EA",
-   "submitted": "8/2/19",
-   "estimatedDelivery": "8/4/19 ",
-   "status": "Shipped"
+   "submitted": "7/20/19",
+   "estimatedDelivery": "7/24/19 ",
+   "status": "Delivered"
  },
  {
   "type": "Scheduled Order",
    "orderNumber": 991684,
    "totalCase": "4 CS",
    "totalEach": "0 EA",
-   "submitted": "8/1/19",
-   "estimatedDelivery": "8/5/19 ",
-   "status": "Submitted"
+   "submitted": "7/1/19",
+   "estimatedDelivery": "7/5/19 ",
+   "status": "Delivered"
  },
  {
   "type": "Auto Order",
    "orderNumber": 604957,
    "totalCase": "1 CS",
    "totalEach": "0 EA",
-   "submitted": "7/20/19",
-   "estimatedDelivery": "8/12/19 ",
-   "status": "Submitted"
+   "submitted": "6/20/19",
+   "estimatedDelivery": "6/22/19 ",
+   "status": "Delivered"
  }
 ]
