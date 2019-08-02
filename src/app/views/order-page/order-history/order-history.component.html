@@ -41,7 +41,12 @@
                               {{order.estimatedDelivery}}
                           </td>
                           <td>
-                              <span class="badge badge-success"> {{order.status}}</span>
+                              <span class="badge" 
+                                [ngClass]="{
+                                  'badge-primary': order.status=='submitted',
+                                  'badge-warning': order.status=='In Transit',
+                                  'badge-success': order.status =='Delivered'
+                                }"> {{order.status}}</span>
                           </td>
                         </tr>
             </tbody>
