@@ -41,6 +41,8 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts';
 import { ChatComponent } from './views/chat/chat.component';
+import { MessageListComponent, MessageFormComponent, MessageItemComponent } from './components';
+import { DialogflowService } from './services';
 
 
 @NgModule({
@@ -64,12 +66,16 @@ import { ChatComponent } from './views/chat/chat.component';
     P404Component,
     P500Component,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    MessageListComponent,
+    MessageFormComponent,
+    MessageItemComponent
   ],
   providers: [{
     provide: LocationStrategy,
     useClass: HashLocationStrategy
-  }],
+  },
+  DialogflowService],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

@@ -92,7 +92,7 @@ export const routes: Routes = [
       },
       {
         path: 'chat',
-        loadChildren: () => import('./views/chat/chat.module').then(m => m.ChatModule)
+        loadChildren: () => import('./views/bot/bot.module').then(m => m.BotModule)
       }
     ]
   },
