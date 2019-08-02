@@ -41,7 +41,8 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts';
 import { ChatComponent } from './views/chat/chat.component';
-import { MessageListComponent, MessageFormComponent, MessageItemComponent } from './components';
+import { HttpModule } from '@angular/http';
+
 import { DialogflowService } from './services';
 
 
@@ -58,7 +59,8 @@ import { DialogflowService } from './services';
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    ChartsModule
+    ChartsModule,
+    HttpModule
   ],
   declarations: [
     AppComponent,
@@ -66,10 +68,7 @@ import { DialogflowService } from './services';
     P404Component,
     P500Component,
     LoginComponent,
-    RegisterComponent,
-    MessageListComponent,
-    MessageFormComponent,
-    MessageItemComponent
+    RegisterComponent
   ],
   providers: [{
     provide: LocationStrategy,

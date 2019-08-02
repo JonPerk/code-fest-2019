@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Message } from '../../models';
 import { DialogflowService } from '../../services';
 
+
 @Component({
   selector: 'message-form',
   templateUrl: './message-form.component.html',
