@@ -67,11 +67,11 @@ export const navItems: NavData[] = [
         url: '/customer-setting/auto-order',
         icon: 'icon-settings'
       },
-      {
-        name: 'Product Data',
-        url: '/customer-setting/product-data',
-        icon: 'icon-list'
-      },
+      // {
+      //   name: 'Product Data',
+      //   url: '/customer-setting/product-data',
+      //   icon: 'icon-list'
+      // },
     ]
   },
   {
@@ -79,15 +79,15 @@ export const navItems: NavData[] = [
     url: '/chat',
     icon: 'icon-chat'
   },
-  {
-    name: 'Dashboard',
-    url: '/dashboard',
-    icon: 'icon-speedometer',
-    badge: {
-      variant: 'info',
-      text: 'NEW'
-    }
-  },
+  // {
+  //   name: 'Dashboard',
+  //   url: '/dashboard',
+  //   icon: 'icon-speedometer',
+  //   badge: {
+  //     variant: 'info',
+  //     text: 'NEW'
+  //   }
+  // },
   {
     name: 'Download Order History',
     // url: 'http://coreui.io/angular/',
